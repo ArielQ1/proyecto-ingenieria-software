@@ -1,11 +1,11 @@
-import logoToyota from '../assets/toyota_logo.png';
+import Navbar from "../Components/Navbar";
+
 
 const Register = () => {
     return (
         <div className="flex flex-col place-items-center w-screen h-screen bg-backgroundRegister bg-contain">
-            <div className="">
-                 //Aqui vendra e navbar
-                <img src={logoToyota} alt="logo toyosa" className='w-28' />
+            <div className="w-full mb-32">
+                <Navbar />
             </div>
 
             <div className="bg-slate-800 border border-slate-400 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-30 relative">

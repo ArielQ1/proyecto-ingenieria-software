@@ -11,9 +11,6 @@ function App() {
 
   return (    
     <>
-      <header>
-        <Navbar/>
-      </header>
       <Routes>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Register' element={<Register/>}/>

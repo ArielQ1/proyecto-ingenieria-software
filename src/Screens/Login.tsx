@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../Components/Navbar';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -11,7 +12,11 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-fondoLogin bg-cover bg-center py-20">
+    <div className="flex flex-col place-items-center w-screen h-screen bg-fondoLogin bg-cover bg-center py-20">
+      <div className="w-full mb-32">
+        <Navbar />
+      </div>
+
       <form 
         onSubmit={handleSubmit} 
         className="bg-gray-900 p-6 rounded shadow-md w-96"
