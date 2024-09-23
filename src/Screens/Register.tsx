@@ -4,6 +4,7 @@ const Register = () => {
     return (
         <div className="flex flex-col place-items-center w-screen h-screen" >
             <div className="">
+                 //Aqui vendra e navbar
                 <img src={logoToyota} alt="logo toyosa" className='w-28' />
             </div>
 
