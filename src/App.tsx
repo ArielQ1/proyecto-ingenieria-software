@@ -1,13 +1,17 @@
 import './App.css'
+import Register from './Screens/Register.tsx';
+import Login from './Screens/Login.tsx';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <div>
+      <Routes>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Register' element={<Register/>}/>
+      </Routes>
+    </div>
   )
 }
 
