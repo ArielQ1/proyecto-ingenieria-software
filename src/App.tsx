@@ -11,10 +11,12 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <Routes>
-        <Route path='/Login' element={<Login/>}/>
-        <Route path='/Register' element={<Register/>}/>
-      </Routes>
+      <body>
+        <Routes>
+          <Route path='/Login' element={<Login/>}/>
+          <Route path='/Register' element={<Register/>}/>
+        </Routes>  
+      </body>
     </>
   )
 }

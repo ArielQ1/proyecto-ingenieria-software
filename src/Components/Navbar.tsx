@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-1 text-lg m-0">
+    <nav className="bg-gray-800 fixed top-0 w-full z-50 p-1 text-lg m-0">
       <div className="container-sm mx-auto px-6">
         <div className="flex justify-between items-center">
           <div className="text-white text-lg font-semibold">
