@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="w-screen flex flex-row h-16 bg-black text-white fixed bottom-0">
+        <footer className="w-full flex flex-row h-16 bg-gray-950 text-white ">
             <section className="w-9/12 h-full grid place-content-around ">
                 <ul className="grid grid-cols-3 text-lg gap-8">
                     <li className="hover:text-red-600 duration-300"><Link to="" >Sobre Nosotros</Link></li>

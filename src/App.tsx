@@ -1,7 +1,7 @@
-import './App.css'
 import Register from './Screens/Register.tsx';
 import Login from './Screens/Login.tsx';
-import Home from './Screens/Admin/home.tsx';
+import HomeAdmi from './Screens/Admin/home.tsx';
+import HomePublic from './Screens/Home.tsx';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -9,9 +9,10 @@ function App() {
   return (    
     <>
       <Routes>
+        <Route path='/' element={<HomePublic/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Register' element={<Register/>}/>
-        <Route path='/Admin/home' element={<Home/>}/>
+        <Route path='/Admin/home' element={<HomeAdmi/>}/>
       </Routes>
     </>
   )

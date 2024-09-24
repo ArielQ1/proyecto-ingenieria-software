@@ -6,7 +6,6 @@ module.exports = {
       backgroundImage:{
         'backgroundRegister': "url(./assets/backgroundRegister2.jpg)",
         'fondoLogin': "url('./src/assets/fondo_login.jpeg')",
-
       },
     },
   },
