@@ -1,5 +1,5 @@
 import NavbarAdmin from '../../Components/NavbarAdmin';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const AdminHome = () => {
 
