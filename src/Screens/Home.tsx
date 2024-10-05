@@ -1,4 +1,5 @@
 import CardImageText from "../Components/CardImageText";
+import Carousel from "../Components/Carousel";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import img from "../assets/xD.jpg";
@@ -12,7 +13,7 @@ const Home = () => {
             <Navbar/>
             <section className="mt-24 text-center w-fit grid grid-cols-2">
                 <div>
-                    /* Carusel */
+                    <Carousel />
                 </div>
                 <article>
                     <h1 className="font-bold text-8xl text-center ">TOYOSA</h1>
